@@ -1,0 +1,160 @@
+/* Global CSS */
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header Section CSS Start */
+
+.header{
+	width: 100%;
+	height: 100vh;
+	padding: 10px 0px 0px;
+	background: url("../images/hero-bg.png") no-repeat;
+	background-position: right 0%;
+	background-size: 65%;
+}
+
+.header .main-menu{
+	width: 100%;
+}
+
+.header .main-menu .navbar-nav a{
+	font-size: 16px;
+	color: #000000;
+	margin-right: 10px;
+	font-weight: 500;
+}
+
+.header .navbar-nav .nav-item.phone {
+	margin-left: 30px;
+	border: 1px solid #FFFFFF;
+	border-radius: 12px;
+}
+
+.header .navbar-nav .nav-item .fa-phone{
+	color: #FFFFFF;
+	font-weight: 900;
+	margin: 0px 10px;
+}
+
+.header .banner{
+	width: 100%;
+	padding: 50px 0px 0px;
+}
+
+.header .banner h1{
+	color: #242424;
+	font-size: 46px;
+	font-weight: 600;
+	line-height: 56px;
+	text-transform: capitalize;
+}
+
+.header .banner h1 span{
+	color: #0961B1;
+}
+
+.header .banner p{
+	color: #242424;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-transform: capitalize;
+}
+
+.header .banner .btn-success{
+	color: #F9F9F9;
+	font-size: 16px;
+	font-weight: 500;
+	background: #0961B1;
+	border: none;
+	padding: 10px 15px;
+	margin: 15px 0px 0px;
+}
+
+.header .banner .btn-success:hover{
+	background: #0b5ed7;
+}
+
+/* What We Do Section CSS Start */
+
+.what-we-do{
+	width: 100%;
+	padding: 50px 0px;
+}
+
+.what-we-do h1{
+	color: #242424;
+	font-size: 46px;
+	font-weight: 600;
+	line-height: 56px;
+	text-transform: capitalize;
+}
+
+.what-we-do h1 span{
+	color: #0961B1;
+}
+
+.what-we-do p{
+	color: #242424;
+	font-size: 19px;
+	margin-top: 15px;
+	font-weight: 500;
+	line-height: 29px;
+	text-transform: capitalize;
+}
+
+.services .item{
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 25px 40px;
+    margin-bottom: 25px;
+    min-height: 48vh;
+}
+.services .item .services-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.services .item .services-header img{
+    width: 16%;
+}
+.services .item .services-header h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+.services .item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
